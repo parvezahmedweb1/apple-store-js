@@ -1,0 +1,10 @@
+[
+  { "name": "iPhone", "img": "/images/categories/icon-product-iphone.jpg" },
+  { "name": "Mac", "img": "/images/categories/icon-product-mac.jpg" },
+  { "name": "iPad", "img": "/images/categories/icon-product-ipad.jpg" },
+  { "name": "Watch", "img": "/images/categories/icon-product-watch.jpg" },
+  {
+    "name": "Accessories",
+    "img": "/images/categories/icon-shipping-grey-2017.jpg"
+  }
+]

@@ -1,0 +1,192 @@
+{
+  "products": [
+    {
+      "id": "101",
+      "name": "iPhone 14 Pro",
+      "img": "/images/iphone/compare_iphone_14_pro__cjmfbiggqhpy_large.jpg",
+      "discription": "The ultimate iPhone.",
+      "price": "999",
+      "view": "10"
+    },
+    {
+      "id": "102",
+      "name": "iPhone 14",
+      "img": "/images/iphone/compare_iphone_14__ct4sjk962pea_large.jpg",
+      "discription": "A total powerhouse.",
+      "price": "799",
+      "view": "9"
+    },
+    {
+      "id": "103",
+      "name": "iPhone 13",
+      "img": "/images/iphone/compare_iphone_13__fqzwhmfmroey_large.jpg",
+      "discription": "As amazing as ever.",
+      "price": "599",
+      "view": "8"
+    },
+    {
+      "id": "104",
+      "name": "iPhone SE",
+      "img": "/images/iphone/compare_iphone_se__d5blqx1pgymq_large.jpg",
+      "discription": "Serious power.",
+      "price": "429",
+      "view": "8"
+    },
+    {
+      "id": "105",
+      "name": "MacBook Air",
+      "img": "/images/mac/compare_mba__fchj615oz0yi_large.png",
+      "discription": "M1 chip",
+      "price": "1000",
+      "view": "8"
+    },
+    {
+      "id": "106",
+      "name": "MacBook Air",
+      "img": "/images/mac/compare_mbam2__bdesjk99hf4i_large.png",
+      "discription": "M2 chip",
+      "price": "1199",
+      "view": "8"
+    },
+    {
+      "id": "106",
+      "name": "MacBook Pro 13",
+      "img": "/images/mac/compare_mbp13__euj5z15300om_large.png",
+      "price": "1199",
+      "view": "8"
+    },
+    {
+      "id": "107",
+      "name": "MacBook Pro 14",
+      "img": "/images/mac/compare_mbp14_and_16__f2dhysusb5im_large.png",
+      "price": "1199",
+      "view": "8"
+    },
+    {
+      "id": "108",
+      "name": "iPad Pro",
+      "img": "/images/ipad/compare_ipad_pro__erf9x8mw04sy_large.png",
+      "discription": "The ultimate iPad experience.",
+      "price": "799",
+      "view": "8"
+    },
+    {
+      "id": "109",
+      "name": "iPad Air",
+      "img": "/images/ipad/compare_ipad_air__bxjv33pk6nte_large.png",
+      "discription": "Powerful. Colorful. Wonderful.",
+      "price": "599",
+      "view": "8"
+    },
+    {
+      "id": "110",
+      "name": "iPad",
+      "img": "/images/ipad/compare_ipad_10_2__fwgwy7jydtea_large.png",
+      "discription": "Delightfully capable. Surprisingly affordable.",
+      "price": "329",
+      "view": "8"
+    },
+    {
+      "id": "111",
+      "name": "iPad mini",
+      "img": "/images/ipad/compare_ipad_mini__czcsk9ukpeie_large.png",
+      "discription": "Mega power. Mini sized.",
+      "price": "499",
+      "view": "8"
+    },
+    {
+      "id": "112",
+      "name": "Apple Watch Series 8",
+      "img": "/images/watch/compare_s8__q5ebcy3sahme_large.jpg",
+      "price": "399",
+      "view": "8"
+    },
+    {
+      "id": "113",
+      "name": "Apple Watch SE",
+      "img": "/images/watch/compare_se__fjdos6x4rmmy_large.jpg",
+      "price": "249",
+      "view": "8"
+    },
+    {
+      "id": "114",
+      "name": "Apple Watch Ultra",
+      "img": "/images/watch/compare_ultra__bzeon0dzb49y_large.jpg",
+      "price": "799",
+      "view": "8"
+    },
+    {
+      "id": "115",
+      "name": "iPhone 14 Plus Silicone Case with MagSafe - Succulent",
+      "img": "/images/accessories/HQ512.jpg",
+      "price": "49",
+      "view": "8"
+    },
+    {
+      "id": "116",
+      "name": "iPhone 14 Plus Silicone Case with MagSafe - Blue",
+      "img": "/images/accessories/HQ4V2.jpg",
+      "price": "50",
+      "view": "8"
+    },
+    {
+      "id": "117",
+      "name": "iPhone 14 Plus Silicone Case with MagSafe - Blue",
+      "img": "/images/accessories/HQ4V2.jpg",
+      "price": "50",
+      "view": "8"
+    },
+    {
+      "id": "118",
+      "name": "iPhone 14 Plus Silicone Case with MagSafe - Black",
+      "img": "/images/accessories/MPU63.jpg",
+      "price": "52",
+      "view": "8"
+    },
+    {
+      "id": "119",
+      "name": "MagSafe Charger",
+      "img": "/images/accessories/MHXH3.jpg",
+      "price": "39",
+      "view": "8"
+    },
+    {
+      "id": "120",
+      "name": "MagSafe-2 Charger",
+      "img": "/images/accessories/MU7T2_GEO_US.jpg",
+      "price": "39",
+      "view": "8"
+    },
+    {
+      "id": "121",
+      "name": "MagSafe-2 Charger",
+      "img": "/images/accessories/MU7T2_GEO_US.jpg",
+      "price": "39",
+      "view": "8"
+    },
+    {
+      "id": "122",
+      "name": "AirPods",
+      "img": "/images/airpods/compare_airpods_2nd_gen__fw52r8rxrpyu_large.png",
+      "discription": "2nd generation",
+      "price": "129",
+      "view": "8"
+    },
+    {
+      "id": "123",
+      "name": "AirPods",
+      "img": "/images/airpods/compare_airpods_3rd_gen__dyuzfy04ht0m_large.png",
+      "discription": "3rd generation",
+      "price": "169",
+      "view": "8"
+    },
+    {
+      "id": "124",
+      "name": "AirPods Pro",
+      "img": "/images/airpods/compare_airpods_pro__e9uzt0mzviem_large.png",
+      "discription": "2nd generation",
+      "price": "249",
+      "view": "8"
+    }
+  ]
+}
