@@ -15,7 +15,6 @@ const displayCategories = (data) => {
   //   console.log(data);
   const navberContainer = document.getElementById("navber-container");
   data.forEach((category) => {
-    console.log(category);
     const { name } = category;
     const li = document.createElement("li");
     li.className = "nav-item";
@@ -24,3 +23,23 @@ const displayCategories = (data) => {
   });
 };
 loadData("/category.json", displayCategories);
+// ! displayCategoriesDetails
+const displayCategoriesDetails = (data) => {
+  console.log(data);
+  const categories = document.getElementById("categories");
+  data.slice(0, 4).forEach((category) => {
+    const { name, img } = category;
+    const div = document.createElement("div");
+    div.className = "col text-center";
+    div.innerHTML = `
+                <img
+                class="p-3 border rounded-circle h-50"
+                src="${img}"
+                alt=""
+                />
+                <h6 class="mt-1">${name}</h6>
+    `;
+    categories.appendChild(div);
+  });
+};
+loadData("/category.json", displayCategoriesDetails);
