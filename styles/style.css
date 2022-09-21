@@ -7,3 +7,7 @@ body {
 li {
   list-style: none;
 }
+.card-img {
+  width: 183px;
+  height: 191px;
+}

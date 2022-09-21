@@ -152,20 +152,6 @@
     },
     {
       "id": "120",
-      "name": "MagSafe-2 Charger",
-      "img": "/images/accessories/MU7T2_GEO_US.jpg",
-      "price": "39",
-      "view": "8"
-    },
-    {
-      "id": "121",
-      "name": "MagSafe-2 Charger",
-      "img": "/images/accessories/MU7T2_GEO_US.jpg",
-      "price": "39",
-      "view": "8"
-    },
-    {
-      "id": "122",
       "name": "AirPods",
       "img": "/images/airpods/compare_airpods_2nd_gen__fw52r8rxrpyu_large.png",
       "discription": "2nd generation",
@@ -173,7 +159,7 @@
       "view": "8"
     },
     {
-      "id": "123",
+      "id": "121",
       "name": "AirPods",
       "img": "/images/airpods/compare_airpods_3rd_gen__dyuzfy04ht0m_large.png",
       "discription": "3rd generation",
@@ -181,7 +167,7 @@
       "view": "8"
     },
     {
-      "id": "124",
+      "id": "122",
       "name": "AirPods Pro",
       "img": "/images/airpods/compare_airpods_pro__e9uzt0mzviem_large.png",
       "discription": "2nd generation",

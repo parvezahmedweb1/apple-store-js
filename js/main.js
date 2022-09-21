@@ -25,7 +25,6 @@ const displayCategories = (data) => {
 loadData("/category.json", displayCategories);
 // ! displayCategoriesDetails
 const displayCategoriesDetails = (data) => {
-  console.log(data);
   const categories = document.getElementById("categories");
   data.slice(0, 4).forEach((category) => {
     const { name, img } = category;
@@ -43,3 +42,34 @@ const displayCategoriesDetails = (data) => {
   });
 };
 loadData("/category.json", displayCategoriesDetails);
+// ! displayProducts
+const displayProducts = (data) => {
+  localStorage.setItem("PRODUCTS", JSON.stringify(data.products));
+  const getProducts = JSON.parse(localStorage.getItem("PRODUCTS"));
+  const products = document.getElementById("products");
+  getProducts.forEach((product) => {
+    console.log(product);
+    const { id, img, name, discription, price } = product;
+    const div = document.createElement("div");
+    div.className = "col";
+    div.innerHTML = `
+                <div class="card h-100 text-center border-0 shadow-lg">
+                <img
+                  src="${img}"
+                  class="card-img-top card-img mx-auto pt-2"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">${name}</h5>
+                  <p class="card-text">${
+                    discription ? discription : "Not Found"
+                  }</p>
+                  <p class="card-text fw-bold">$${price}</p>
+                  <button class="btn btn-dark w-100">Buy Now</button>
+                </div>
+                </div>
+    `;
+    products.appendChild(div);
+  });
+};
+loadData("/products.json", displayProducts);
